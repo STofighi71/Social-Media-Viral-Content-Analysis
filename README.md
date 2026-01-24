@@ -1,47 +1,63 @@
-# 📊 Social Media Engagement Analysis
+# 📊 Retail Sales Performance Analysis: Customer Behavior & Revenue Insights
 
 ## 📌 Project Overview
 
-This project analyzes social media engagement data to help digital marketing teams understand how different content types and platforms perform in terms of user interaction.
+This project analyzes retail transactional data to uncover sales patterns, customer behavior, and revenue drivers. The goal is to provide actionable insights that support data-driven decision-making for sales strategy, inventory planning, and business growth.
 
-The goal is to transform raw engagement data into actionable insights that support content strategy decisions, campaign optimization, and dashboard reporting.
+The analysis focuses on understanding how customers, products, and time-based factors influence overall retail performance.
 
 ## 🎯 Business Context
 
-From the perspective of a digital marketing team, this project aims to:
- - Identify which content types drive higher engagement rates
- - Compare platform performance using reliable engagement metrics
- - Provide data-driven recommendations for content strategy optimization
+Retail businesses generate large volumes of transactional data, but without proper analysis, valuable insights often remain hidden. This project aims to bridge that gap by transforming raw transaction data into meaningful business intelligence.
+
+The insights from this analysis can help decision-makers:
+- Identify high-value customers
+- Detect sales trends and seasonality
+- Optimize product and pricing strategies
+- Improve inventory and promotional planning
 
 ## 👤 Primary Stakeholder
-This stakeholder is responsible for:
- - Planning social media campaigns
- - Allocating content resources across platforms
- - Maximizing engagement efficiency rather than just content volume
+ Head of Sales & Business Analytics at a mid-sized retail company operating in Germany.
+
+**Stakeholder Objectives:**
+- Increase total revenue and average transaction value
+- Understand customer purchasing behavior
+- Identify top-performing products
+- Improve sales planning using data-driven insights
 
 ## 📊 Dataset
-The dataset contains post-level engagement metrics across different platforms and content types.
-- Source: Kaggle – Social Media Engagement Report
-- Features include:
-  - Platform
-  - Post Type
-  - Likes, Shares, Comments
-  - Hashtags
-  - Post Date
-
-## 🔍 Analysis Approach
+- **Source:** [Kaggle - Retail Transactional Dataset](https://www.kaggle.com/datasets/bhavikjikadara/retail-transactional-dataset/data)
+- **Type:** Transaction-level retail data
+- **Granularity:** Individual sales transactions
+  
+## 🗂️ Project Structure
+ ```text
+ ├── Data/
+ │   └── Retail_Transactions.csv
+ ├── Notebooks/
+ │   └── Retail_Sales_EDA.ipynb
+ ├── Power_BI_Dashboard/
+ │   └── Retail_Sales_Dashboard.pbix
+ ├── Presentation
+ │   └── Retail_Sales_Presentation.pdf
+ ├── README.md
+ └── requirements.txt
+```
+## 🔍 Analysis Workflow
 The project follows a structured data analytics workflow:
-- Data understanding and quality checks
+- Data understanding and Quality Checks
 - Feature engineering
-- Exploratory data analysis (EDA)
-- Hypothesis-driven analysis
-- Business recommendations
-- Interactive dashboard design using Power BI
+- Exploratory Data Analysis (EDA)
+- Hypothesis-Driven Analysis
+- Business Recommendations
+- Further Improvements
 
 ## ❓ Key Business Questions
-- Which content types achieve higher engagement rates on average?
-- How does engagement performance differ across social media platforms?
-- Are engagement outcomes evenly distributed or driven by a small subset of high-performing posts?
+- Which products and product categories contribute the most to total revenue and sales volume?
+- How is revenue distributed across customers, and who are the high-value customers driving business performance?
+- Are there identifiable temporal patterns (daily, weekly, or monthly) in sales and revenue?
+- Which time periods generate the highest sales performance and should be prioritized for promotions?
+- Is the business revenue driven by a broad customer base or concentrated among a small group of customers?
 
 ## 🛠️ Tools & Technologies
 - Python (Pandas, Matplotlib, Seaborn)
@@ -50,4 +66,4 @@ The project follows a structured data analytics workflow:
 - Git & GitHub
 
 ## 🚀 Project Status
-Final project includes complete EDA, insights, and Power BI dashboards providing actionable recommendations for digital marketing strategy.
+Final project includes complete EDA, insights, and Power BI dashboards providing actionable recommendations for business stakeholders
